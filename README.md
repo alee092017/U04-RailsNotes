@@ -10,7 +10,7 @@
 [plurals/caps](https://git.generalassemb.ly/wdi-nyc-thundercats/LECTURE_U04_D05_Active-Record#pluralization)
 
 ## migrations:
-### root/db
+root/db
 4.  rails db:create
 5.  *Add & Commit everything*
 6.  rails g model "Modelname"-should be *capitalized & singluar*
@@ -27,7 +27,7 @@
 12.  repeat all above
 
 ## relationships:
-## app/models
+app/models
 
 [Active Record Associations](http://guides.rubyonrails.org/association_basics.html#choosing-between-has_many-through-and-has_and_belongs_to_many)
 
@@ -37,10 +37,13 @@
      - relationship :table or :row (?) am i understanding that correctly?
      - *add & commit*
 14.  indexing--
+      - rails g index `add_index_to_table1_and_table2` (note table names ntb plural)
+      - 
+      - [indexing](http://rny.io/rails/postgresql/2013/08/20/postgresql-indexing-in-rails.html)
 
 
 ## seeds/seeding:
-## root/db
+root/db
 14.  create seed file...
 [ruby docs](http://edgeguides.rubyonrails.org/active_record_migrations.html#migrations-and-seed-data)
 [seeding from csv...](https://gist.github.com/arjunvenkat/1115bc41bf395a162084)
