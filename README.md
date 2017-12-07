@@ -44,8 +44,11 @@ app/models
 
 ## seeds/seeding:
 root/db
+
 14.  create seed file...
+
 [ruby docs](http://edgeguides.rubyonrails.org/active_record_migrations.html#migrations-and-seed-data)
+
 [seeding from csv...](https://gist.github.com/arjunvenkat/1115bc41bf395a162084)
 
 
