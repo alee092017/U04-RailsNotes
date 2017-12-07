@@ -36,6 +36,14 @@
 13.  model.rb
      - relationship :table or :row (?) am i understanding that correctly?
      - *add & commit*
+14.  indexing--
+
+
+## seeds/seeding:
+## root/db
+14.  create seed file...
+[ruby docs](http://edgeguides.rubyonrails.org/active_record_migrations.html#migrations-and-seed-data)
+[seeding from csv...](https://gist.github.com/arjunvenkat/1115bc41bf395a162084)
 
 
 # Random references/reminders:
