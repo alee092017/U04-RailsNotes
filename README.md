@@ -1,6 +1,6 @@
 # U04-RailsNotes for WDI
 
-##setup:
+## setup:
 1.  rails new "AppName" -G --database=postgresql
   - **"-G" if your directory is already a git repo**
   - "--database" specifies which db prgrm to use.  
@@ -9,25 +9,25 @@
 
 [plurals/caps](https://git.generalassemb.ly/wdi-nyc-thundercats/LECTURE_U04_D05_Active-Record#pluralization)
 
-#migrations:
-root/db
+## migrations:
+### root/db
 4.  rails db:create
-5.  *Add & Commit everything*
-6.  rails g model "Modelname"-should be *capitalized & singluar*
+5.  * Add & Commit everything *
+6.  rails g model "Modelname"-should be * capitalized & singluar *
      - db/migrate--->open the migration
      - define columns in table using:
           t.datatype :columname
-7.  *add & commit the migration*
+7.  * add & commit the migration *
 8.  rails db:migrate
       - see db/schema.rb
 9.  For the balance of db tables, repeat previous two steps
-     * - add & commit db/schema.rb*
+     * - add & commit db/schema.rb *
 10.  rails db:seed
 11.  more mistakes and typoes
 12.  repeat all above
 
-relationships:
-app/models
+## relationships:
+## app/models
 
 [Active Record Associations](http://guides.rubyonrails.org/association_basics.html#choosing-between-has_many-through-and-has_and_belongs_to_many)
 
@@ -38,7 +38,7 @@ app/models
      - add & commit
 
 
-#Random reference to:
+# Random references/reminders:
   - Work in branches otherwise you'll have to start over for the 35th fucking time.
   
   - reminder git push origin branchname
