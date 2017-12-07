@@ -17,21 +17,25 @@ root/db
      - db/migrate--->open the migration
      - define columns in table using:
           t.datatype :columname
-7.  add & commit the migration 
+7.  *add & commit the migration*
 8.  rails db:migrate
       - see db/schema.rb
 9.  For the balance of db tables, repeat previous two steps
-      - add & commit db/schema.rb
+     * - add & commit db/schema.rb*
 10.  rails db:seed
 11.  more mistakes and typoes
 12.  repeat all above
 
 relationships:
 app/models
-[Active Record Associations](http://guides.rubyonrails.org/association_basics.html#choosing-between-has_many-through-and-has_and_belongs_to_many)
-[from wdi lecture](https://git.generalassemb.ly/wdi-nyc-thundercats/LECTURE_U04_D05_Active-Record#relations-and-models)
-13.  model.rb
 
+[Active Record Associations](http://guides.rubyonrails.org/association_basics.html#choosing-between-has_many-through-and-has_and_belongs_to_many)
+
+[from wdi lecture](https://git.generalassemb.ly/wdi-nyc-thundercats/LECTURE_U04_D05_Active-Record#relations-and-models)
+
+13.  model.rb
+     - relationship :table or :row (?) am i understanding that correctly?
+     - add & commit
 
 
 #Random reference to:
