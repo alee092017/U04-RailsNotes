@@ -1,6 +1,6 @@
 # U04-RailsNotes for WDI
 
-#setup:
+##setup:
 1.  rails new "AppName" -G --database=postgresql
   - **"-G" if your directory is already a git repo**
   - "--database" specifies which db prgrm to use.  
