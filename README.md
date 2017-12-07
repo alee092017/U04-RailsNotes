@@ -12,16 +12,16 @@
 ## migrations:
 ### root/db
 4.  rails db:create
-5.  * Add & Commit everything *
-6.  rails g model "Modelname"-should be * capitalized & singluar *
+5.  *Add & Commit everything*
+6.  rails g model "Modelname"-should be *capitalized & singluar*
      - db/migrate--->open the migration
      - define columns in table using:
           t.datatype :columname
-7.  * add & commit the migration *
+7.  *add & commit the migration*
 8.  rails db:migrate
       - see db/schema.rb
 9.  For the balance of db tables, repeat previous two steps
-     * - add & commit db/schema.rb *
+      - *add & commit db/schema.rb*
 10.  rails db:seed
 11.  more mistakes and typoes
 12.  repeat all above
@@ -35,7 +35,7 @@
 
 13.  model.rb
      - relationship :table or :row (?) am i understanding that correctly?
-     - add & commit
+     - *add & commit*
 
 
 # Random references/reminders:
