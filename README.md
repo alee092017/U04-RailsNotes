@@ -11,6 +11,7 @@
 
 ## migrations:
 root/db
+
 4.  rails db:create
 5.  *Add & Commit everything*
 6.  rails g model "Modelname"-should be *capitalized & singluar*
